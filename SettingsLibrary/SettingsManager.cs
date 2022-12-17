@@ -59,6 +59,7 @@ public static class SettingsManager
             var settings = JsonReader.OpenJsonFile<T>(settingsPath);
             if (settings is null)
                return new T();
+            else return settings;
          }
       }
       else
