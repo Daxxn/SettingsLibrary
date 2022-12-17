@@ -4,6 +4,9 @@ using SettingsLibrary.Models;
 
 namespace SettingsLibrary;
 
+/// <summary>
+/// Manager class for opening and saving application settings.
+/// </summary>
 public static class SettingsManager
 {
    #region Local Props
