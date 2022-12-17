@@ -2,12 +2,13 @@
 
    <PropertyGroup>
       <TargetFramework>net6.0</TargetFramework>
-      <VersionPrefix>2.1.0</VersionPrefix>
+      <VersionPrefix>2.1.1</VersionPrefix>
       <ImplicitUsings>enable</ImplicitUsings>
       <Nullable>enable</Nullable>
       <RepositoryUrl>git@github.com:Daxxn/SettingsLibrary.git</RepositoryUrl>
       <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
       <GenerateDocumentationFile>True</GenerateDocumentationFile>
+      <Description>Application settings library for my projects.</Description>
       <Authors>Daxxn</Authors>
    </PropertyGroup>
 
