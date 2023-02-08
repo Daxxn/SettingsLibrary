@@ -2,7 +2,7 @@
 
    <PropertyGroup>
       <TargetFrameworks>net6.0;net462;net47;net48</TargetFrameworks>
-      <VersionPrefix>2.2.1</VersionPrefix>
+      <VersionPrefix>2.2.0</VersionPrefix>
       <ImplicitUsings>disable</ImplicitUsings>
       <Nullable>disable</Nullable>
       <RepositoryUrl>git@github.com:Daxxn/SettingsLibrary.git</RepositoryUrl>
