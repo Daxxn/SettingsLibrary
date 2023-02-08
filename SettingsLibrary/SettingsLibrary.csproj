@@ -1,16 +1,30 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
    <PropertyGroup>
-      <TargetFramework>net6.0</TargetFramework>
-      <VersionPrefix>2.1.1</VersionPrefix>
-      <ImplicitUsings>enable</ImplicitUsings>
-      <Nullable>enable</Nullable>
+      <TargetFrameworks>net6.0;net462;net47;net48</TargetFrameworks>
+      <VersionPrefix>2.2.1</VersionPrefix>
+      <ImplicitUsings>disable</ImplicitUsings>
+      <Nullable>disable</Nullable>
       <RepositoryUrl>git@github.com:Daxxn/SettingsLibrary.git</RepositoryUrl>
       <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
       <GenerateDocumentationFile>True</GenerateDocumentationFile>
-      <Description>Application settings library for my projects.</Description>
+      <Description>Application settings library for my projects. (Usually WPF apps.)</Description>
       <Authors>Daxxn</Authors>
+      <Title>Settings</Title>
+      <PackageReadmeFile>README.md</PackageReadmeFile>
+      <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
    </PropertyGroup>
+
+   <ItemGroup>
+     <None Include="..\LICENSE.txt">
+       <Pack>True</Pack>
+       <PackagePath>\</PackagePath>
+     </None>
+     <None Include="..\README.md">
+       <Pack>True</Pack>
+       <PackagePath>\</PackagePath>
+     </None>
+   </ItemGroup>
 
    <ItemGroup>
       <PackageReference Include="JsonReaderLibrary" Version="1.0.0" />
