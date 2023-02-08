@@ -27,7 +27,7 @@
    </ItemGroup>
 
    <ItemGroup>
-      <PackageReference Include="JsonReaderLibrary" Version="1.0.0" />
+      <PackageReference Include="JsonReaderLibrary" Version="1.1.0" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
    </ItemGroup>
 

@@ -60,10 +60,7 @@ namespace SettingsLibrary
             if (File.Exists(settingsPath))
             {
                var settings = JsonReader.OpenJsonFile<T>(settingsPath);
-               if (settings is null)
-                  return new T();
-               else
-                  return settings;
+               return settings == null ? new T() : settings;
             }
          }
          else
