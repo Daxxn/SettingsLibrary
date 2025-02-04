@@ -2,7 +2,7 @@
 
    <PropertyGroup>
       <TargetFrameworks>net6.0;net461;net462;net47;net48</TargetFrameworks>
-      <VersionPrefix>2.2.1</VersionPrefix>
+      <VersionPrefix>2.2.2</VersionPrefix>
       <ImplicitUsings>disable</ImplicitUsings>
       <Nullable>disable</Nullable>
       <RepositoryUrl>git@github.com:Daxxn/SettingsLibrary.git</RepositoryUrl>
@@ -27,8 +27,8 @@
    </ItemGroup>
 
    <ItemGroup>
-      <PackageReference Include="JsonReaderLibrary" Version="1.1.1" />
-      <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+      <PackageReference Include="JsonReaderLibrary" Version="1.1.2" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
    </ItemGroup>
 
 </Project>
